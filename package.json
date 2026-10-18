@@ -1,0 +1,17 @@
+{
+  "name": "com.nkstudio.savestore",
+  "displayName": "Save Store",
+  "version": "0.2.0",
+  "unity": "6000.0",
+  "description": "Domain-partitioned, checkpoint-based save system on MemoryPack. Only dirty domains are serialized into pooled buffers at checkpoints and committed atomically (generational blobs + manifest, CRC, snapshot rollback) through a pluggable ISaveStorage (file, memory, WebGL). Includes save slots, payload transforms (Deflate, HMAC, AES+HMAC), clock injection, in-memory transactions, cloud sync hooks (commit events, snapshots), dynamic domains, a save viewer and golden-file test helpers.",
+  "license": "MIT",
+  "keywords": [
+    "save",
+    "memorypack",
+    "persistence",
+    "file"
+  ],
+  "author": {
+    "name": "NK Studio"
+  }
+}
